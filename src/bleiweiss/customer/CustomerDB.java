@@ -14,32 +14,32 @@ public class CustomerDB {
             theCustomer.setPostalCode("06010");
             return theCustomer;
         } else if (customerNum == 1002) {
-            theCustomer.setName("");
-            theCustomer.setAddress("");
-            theCustomer.setCity("");
-            theCustomer.setState("");
-            theCustomer.setPostalCode("");
+            theCustomer.setName("Karl Vang");
+            theCustomer.setAddress("327 Franklin Street");
+            theCustomer.setCity("Edina");
+            theCustomer.setState("MN");
+            theCustomer.setPostalCode("55435");
             return theCustomer;
         } else if (customerNum == 1003) {
-            theCustomer.setName("");
-            theCustomer.setAddress("");
-            theCustomer.setCity("");
-            theCustomer.setState("");
-            theCustomer.setPostalCode("");
+            theCustomer.setName("Ronda Chavan");
+            theCustomer.setAddress("518 Commanche Dr.");
+            theCustomer.setCity("Greensboro");
+            theCustomer.setState("NC");
+            theCustomer.setPostalCode("27410");
             return theCustomer;
         } else if (customerNum == 1004) {
-            theCustomer.setName("");
-            theCustomer.setAddress("");
-            theCustomer.setCity("");
-            theCustomer.setState("");
-            theCustomer.setPostalCode("");
+            theCustomer.setName("Craig Pelton");
+            theCustomer.setAddress("1019 Dean Dr.");
+            theCustomer.setCity("Greendale");
+            theCustomer.setState("CO");
+            theCustomer.setPostalCode("80123");
             return theCustomer;
         } else if (customerNum == 1005) {
-            theCustomer.setName("");
-            theCustomer.setAddress("");
-            theCustomer.setCity("");
-            theCustomer.setState("");
-            theCustomer.setPostalCode("");
+            theCustomer.setName("Arthur Dent");
+            theCustomer.setAddress("42 Whale Blvd.");
+            theCustomer.setCity("Paris");
+            theCustomer.setState("TX");
+            theCustomer.setPostalCode("75460");
             return theCustomer;
         }
 
