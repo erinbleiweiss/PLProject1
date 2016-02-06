@@ -48,14 +48,9 @@ public class Customer {
         return postalCode;
     }
 
-    public String getNameAndAddress(String name,
-                                    String address,
-                                    String city,
-                                    String state,
-                                    String postalCode) {
-
+    public String getNameAndAddress() {
         String fullAddress;
-        fullAddress = name + "\n" + address + "\n" + city + ", " + state + " " + postalCode;
+        fullAddress = getName() + "\n" + getAddress() + "\n" + getCity() + ", " + getState() + " " + getPostalCode();
         return fullAddress;
     }
 }
